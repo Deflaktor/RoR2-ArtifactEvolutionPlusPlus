@@ -13,7 +13,7 @@ using RoR2.Artifacts;
 namespace ArtifactEvolutionPlusPlus
 {
     [BepInDependency(R2API.R2API.PluginGUID)]
-    [BepInPlugin("com.Lunzir.ArtifactEvolutionPlusPlus", "Artifact Evolution Plus Plus", "1.1.0")]
+    [BepInPlugin("com.Lunzir.ArtifactEvolutionPlusPlus", "Artifact Evolution Plus Plus", "1.1.1")]
     [NetworkCompatibility(CompatibilityLevel.NoNeedForSync, VersionStrictness.DifferentModVersionsAreOk)]
     public class ArtifactEvolutionPlusPlus : BaseUnityPlugin
     {
