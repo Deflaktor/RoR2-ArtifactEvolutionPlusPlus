@@ -45,7 +45,6 @@ namespace ArtifactEvolutionPlusPlus
         {
             orig(self);
             Config.Reload();
-            ModConfig.InitConfig(Config);
         }
         private void Run_OnDestroy(On.RoR2.Run.orig_OnDestroy orig, Run self)
         {
